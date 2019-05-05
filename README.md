@@ -1,5 +1,5 @@
 # QualityTimeAddon
-WoW Addon to track how the player spends their time.
+QualityTime is an addon that keeps track of how you spend your time in the World of Warcraft. There are four different states your character can be in, combat, regenerating, traveling, and idle. Your state changes based on what you're doing at that time. The amount of time you spend in a state is displayed in a movable, lockable frame and can be paused and reset when desired.
 
 ## Installation
 ### Download
