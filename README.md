@@ -5,10 +5,10 @@ QualityTime is an addon that keeps track of how you spend your time in the World
 
 ## Installation
 ### Download
-Click the download button on the repository's Github page, then select Download ZIP.
-Wait for the zip file to download
-Unzip the file into Interface\Addons.
-It should look like Interface\Addons\QualityTime\QualityTime.lua
+1. Click the download button on the repository's Github page, then select Download ZIP.
+2. Wait for the zip file to download
+3. Unzip the file into Interface\Addons.
+4. It should look like Interface\Addons\QualityTime\QualityTime.lua
 ### Git Clone
-Clone the repository into Interface\Addons.
-It should look like Interface\Addons\QualityTime\QualityTime.lua
+1. Clone the repository into Interface\Addons.
+2. It should look like Interface\Addons\QualityTime\QualityTime.lua
