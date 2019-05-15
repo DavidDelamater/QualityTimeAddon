@@ -47,7 +47,7 @@ local state_variables = {
 }
 
 -- Create the main frame and register the events we'll use
-local main_frame = CreateFrame("Frame", "MainFrame", UIParent, "OptionsBoxTemplate")
+local main_frame = CreateFrame("Frame", "MainFrame", UIParent)
 main_frame:RegisterEvent("PLAYER_ENTERING_WORLD")
 main_frame:RegisterEvent("PLAYER_REGEN_ENABLED")
 main_frame:RegisterEvent("PLAYER_REGEN_DISABLED")
@@ -307,8 +307,8 @@ local function InitializeMainFrame(self)
     --[[Create the title frame]]--
     main_frame.title_frame = CreateFrame("Frame", "MainFrameTitle", main_frame)
     main_frame.title_frame:SetBackdrop({
-        bgFile = "Interface/FrameGeneral/UI-Background-Rock",
-        edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+        bgFile = "Interface/Addons/QualityTime/Images/UI-Background-Rock",
+        edgeFile = "Interface/Addons/QualityTime/Images/UI-Tooltip-Border",
         tile = true,
         tileSize = 64,
         edgeSize = 16,
@@ -369,8 +369,8 @@ local function InitializeMainFrame(self)
     --[[Create the body frame]]--
     main_frame.body_frame = CreateFrame("Frame", "MainFrameBody", main_frame)
     main_frame.body_frame:SetBackdrop({
-        bgFile = "Interface/Tooltips/UI-Tooltip-Background",
-        edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+        bgFile = "Interface/Addons/QualityTime/Images/UI-Tooltip-Background",
+        edgeFile = "Interface/Addons/QualityTime/Images/UI-Tooltip-Border",
         tile = true,
         tileSize = 16,
         edgeSize = 16,
